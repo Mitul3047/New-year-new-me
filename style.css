@@ -1,32 +1,149 @@
-*{
-    margin: 0;
+* {
     padding: 0;
+    margin: 0;
 }
-.contact-us{
-    /* display: flex;
-    justify-content: right;
-    align-items: center;
-    flex-direction: column; */
+
+.contact-us-info {
     text-align: right;
     background-image: url("./images/banner/banner2.png");
-    
-    height: 800px;
     background-repeat: no-repeat;
-    /* background-position: center; */
+    height: 100vh;
     padding: 200px 230px;
+}
+
+
+.title {
+    color: #151414;
+
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
 
 }
 
-.contact-us-title{
-    color:#151414;
-font-family: Work Sans;
-font-size: 65px;
-font-weight: 700;
+.contact-des {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 300px;
+    margin-bottom: 32px;
+
 }
 
-.contact-us-description{
-    color:#444343;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
+.btn {
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    text-align: right;
+
+    font-size: 20px;
+
+    font-weight: 600;
+    padding: 20px 25px;
+    border: 0;
+
+}
+
+
+/* failur section */
+
+
+ul {
+    list-style: none;
+}
+
+/* ul li:before {
+    content: '✓';
+    color: red;
+} */
+
+.failur img {
+    width: 450px;
+
+}
+
+.failur-description {
+    width: 420px;
+}
+
+.failur-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 0px auto;
+}
+
+.failur-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.failur-list {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.failur-description p {
+    margin-bottom: 16px;
+}
+
+.plan-section {
+    margin: 200px;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.plnas-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 100;
+
+
+}
+
+
+.plan-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.plan-name {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.plan-img {
+    margin-bottom: 24px;
+}
+
+.call-section {
+    padding: 60px;
+    height: 300px;
+    text-align: left;
+    background-image: url("images/watch.png") , url("./images/gradient1.png");
+    background-repeat: no-repeat;
+}
+
+.call-title {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-call {
+    color: #F15B22;
+    background: #FFF;
 }
